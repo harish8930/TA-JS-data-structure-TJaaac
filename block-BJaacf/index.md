@@ -1,8 +1,46 @@
-writeCode
 
-#### Read the following instructions and complete the exercise:
+let numbers= [10,20,30,40,50,61,71,83,97]
+/*
+function findlowest(array){
+    let lowest = []
+for( let i=0; i<numbers.length; i++ ){
+if(array[i]>lowest){
+    lowest = array[i]
+}
 
-1. You will find a file named `index.js` inside the folder named `code`
-2. `index.js` file will contain all the instructions
-3. Solve below each instruction
-4. You can also use `index.html` to open in browser to check the output.
+return lowest ;
+}
+
+}
+let result = findlowest(numbers)
+
+
+let even = []
+for(number of numbers ){
+    if(number %2 === 0 ){
+        even.push(number)
+    }
+}
+
+let odd = []
+for(number of numbers ){
+    if(number %2 !== 0){
+        odd.push(number)
+    }
+}
+
+let divisiblebyfive = []
+for(number of numbers ){
+    if(number %5 === 0){
+        divisiblebyfive.push(number)
+    }
+}
+
+*/
+
+let divisiblebythree = []
+for(number of numbers ){
+    if(number %3 === 0){
+        divisiblebythree.push(number)
+    }
+}
