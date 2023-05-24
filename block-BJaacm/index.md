@@ -1,8 +1,24 @@
-writeCode
-
-#### Read the following instructions and complete the exercise:
-
-1. You will find a file named `index.md` inside the folder named `code`
-2. `index.md` file will contain all the instructions.
-3. Solve below each instructions
-4. If asked to add images add in the `code` folder. To add image in markdown you can use `![name](./hello.jpg)`
+user == newUser
+true
+user === newUser
+true
+user.name === newUser.name;
+true
+user.name == newUser.name;
+true
+user.sibling == newUser.sibling
+true
+user.sibling === newUser.sibling;
+true
+user.sibling === newUser.sibling;
+true
+user.sibling == allBrothers;
+false
+user.sibling == newUser.sibling;
+true
+brothersCopy === allBrothers;
+false
+brothersCopy == user.sibling
+true
+brothersCopy[0] === user.sibling[0];
+true
