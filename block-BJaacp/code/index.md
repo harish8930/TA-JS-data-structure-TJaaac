@@ -49,3 +49,20 @@ brothers.push('Robb');
 console.log(user.brothers === brothers); //1. output
 console.log(user.brothers.length === brothers.length); //2. output
 ```
+3. What will be the output of the below code:
+
+```js
+var brothers = ['Bran', 'John'];
+var user = {
+  name: 'Sansa',
+};
+user.brothers = brothers;
+brothers.push('Robb');
+console.log(user.brothers === brothers); //1. output
+console.log(user.brothers.length === brothers.length); //2. outpu
+
+
+
+
+
+
