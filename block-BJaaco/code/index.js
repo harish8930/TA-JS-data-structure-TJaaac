@@ -3,11 +3,64 @@ let numbers = [6, 8, 10, 12, 43, 56, 98];
 let userIds = [1230, 234, 1278, 984, 763, 900];
 
 // 1. Add all the values of numbers and userIds array into the new newly created array named `collection`
-
+let collection = []
+function arrcollection(){
+  collection.push(numbers);
+  collection.push(userIds);
+}
+arrcollection();
 // 2. Add all the even numbers from both arrays numbers and userIds into a newly created array named `evenCollection`
+   let numbers = [6, 8, 10, 12, 43, 56, 98];
+
+    let userIds = [1230, 234, 1278, 984, 763, 900];
+
+let even = []
+
+function evencollect(){
+  for(number of numbers){
+    if(number%2===0){
+      even.push(number)
+    }
+  }
+}
+   let numbers = [6, 8, 10, 12, 43, 56, 98];
+
+    let userIds = [1230, 234, 1278, 984, 763, 900];
+
+function evencollectId(){
+  for(userid of userIds){
+    if(userid%2 ===0){
+      even.push(userId)
+    }
+  }
+}
+evencollectId();
 
 // 3. Add all the odd numbers from both arrays numbers and userIds into a newly created array named `oddCollection`
+  let numbers = [6, 8, 10, 12, 43, 56, 98];
 
+    let userIds = [1230, 234, 1278, 984, 763, 900];
+
+let odd = []
+
+function evencollect(){
+  for(number of numbers){
+    if(number%2!==0){
+      odd.push(number)
+    }
+  }
+}
+
+
+function evencollectId(){
+for(userId of userIds){
+if(userId%2!==0){
+  odd.push(userId)
+}
+}
+}
+evencollect();
+evencollectId();
 /*
   @param means parameter
 
@@ -23,10 +76,16 @@ let userIds = [1230, 234, 1278, 984, 763, 900];
     times(0); // []
     times(5); // ['test', 'test', 'test', 'test', 'test']
 */
-
-function times() {
-  // Your code
+function times(number,character='test'){
+  let result = []
+  for(let i =0;i<number;i++){
+    result.push(character)
+  }
+  return result
 }
+
+let resultarr = times();
+
 
 // Uncomment the code below and test the output
 
